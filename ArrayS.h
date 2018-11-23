@@ -14,7 +14,7 @@ private:
     int i;
     int prior;
 
-    int *Arrs;
+    int Arrs[10000];
 
 public:
 
@@ -22,7 +22,6 @@ public:
     {
         i = 0;
         prior = 0;
-        Arrs = new Type[10000];
 
 
     }

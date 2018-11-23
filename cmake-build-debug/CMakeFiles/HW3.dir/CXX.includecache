@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/ArrayS.h
+queue
+-
+vector
+-
+
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/ArrayUN.h
+queue
+-
+vector
+-
+
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/HeapQueue.h
+queue
+-
+vector
+-
+
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+ArrayS.h
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/ArrayS.h
+ArrayUN.h
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/ArrayUN.h
+HeapQueue.h
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/HeapQueue.h
+stopwatch.h
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/stopwatch.h
+
+C:/Users/Marcos Ibanez/CLionProjects/HW3_2/stopwatch.h
+windows.h
+-
+sys/time.h
+-
+

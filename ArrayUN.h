@@ -17,7 +17,7 @@ private:
     int size;
 
 
-    int *Arru;
+    int Arru[10000];
 
 
 public:
@@ -28,7 +28,6 @@ public:
         i = 0;
         temp = 0;
         size = 0;
-        Arru = new Type[10000];
 
 
 

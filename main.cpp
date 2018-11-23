@@ -19,7 +19,7 @@ int main() {
     */
 
     int typeOfQ, numOfItems, x;
-    int MAXX = 100;
+    int MAXX = 400;
 
     ArrayS<int> ARR;
     ArrayUN<int> ARRU;
@@ -29,7 +29,7 @@ int main() {
 
     // reading file
     ifstream myfile;
-    myfile.open("/Users/michaelibanez/Marcos/HW3/numbers.txt");
+    myfile.open("C:\\Users\\Marcos Ibanez\\CLionProjects\\HW3_2\\numbers.txt");
     // Get the type of queue
     myfile >> typeOfQ;
 
