@@ -14,16 +14,15 @@ private:
     int i;
     int prior;
 
-    int Arrs[100000];
+    int *Arrs;
 
 public:
 
     ArrayS(void)
     {
-
-
         i = 0;
         prior = 0;
+        Arrs = new Type[10000];
 
 
     }
