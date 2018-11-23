@@ -29,10 +29,10 @@ int main() {
 
     // reading file
     ifstream myfile;
-    myfile.open("numbers.txt");
+    myfile.open("/Users/michaelibanez/Marcos/HW3/numbers.txt");
     // Get the type of queue
     myfile >> typeOfQ;
-    cout << typeOfQ << endl;
+
 
     // Read in number of items from myfile
     myfile >> numOfItems;

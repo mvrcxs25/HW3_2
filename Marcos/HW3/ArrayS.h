@@ -12,20 +12,18 @@ class ArrayS
 private:
     int n;
     int i;
-    int Front;
-    int Rear;
+    int prior;
 
-    int Arrs[1000000];
+    int Arrs[100000];
 
 public:
 
     ArrayS(void)
     {
 
-        n = 100;
+
         i = 0;
-        Front = 0;
-        Rear = 0;
+        prior = 0;
 
 
     }
@@ -39,23 +37,36 @@ public:
 
     Type removeMin()
     {
+        int temporaryNum = 0;
+        temporaryNum = Arrs[prior];
+        Arrs[prior] = NULL;
         i = 0;
-
-        while (Arrs[i] == NULL) {
+        while (Arrs[i] == NULL){
             i++;
         }
 
-        int temp = Arrs[i];
-        Arrs[i] == NULL;
-        return temp;
+
+        prior = i;
+
+        return temporaryNum;
 
     }
 
     void insert(Type e, int p)
     {
-        Arrs[p] = p;
+        int temp = 0;
+        for( int i = 0; i < p-1; i++){
+            temp++;
+        }
 
+        Arrs[temp] = p;
+        if(prior > p){
+            prior = p;
+        }
     }
+
+
+
 
 };
 
